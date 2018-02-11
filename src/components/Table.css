@@ -1,0 +1,21 @@
+.table {
+
+}
+.table .btnBox {
+    text-align: right;
+}
+.table .btnBox .addBtn {
+    margin-bottom: 10px;
+}
+.table .handle .edit {
+    cursor: pointer;
+}
+.table .handle .edit:hover {
+    color: red;
+}
+.table .handle .delete {
+    cursor: pointer;
+}
+.table .handle .delete:hover {
+    color: red;
+}

@@ -1,0 +1,18 @@
+.app {
+    height: 100%;
+}
+.app .sidebar {
+    transition: all 0.5s ease;
+    float: left;
+    overflow: hidden;
+}
+.app .container {
+    position: relative;
+    padding-top: 60px;
+    height: 100%;
+    overflow: hidden;
+}
+.app .container .table {
+    padding: 10px;
+    height: 100%;
+}

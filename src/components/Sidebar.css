@@ -1,0 +1,29 @@
+
+
+.sidebar {
+    height: 100%;
+}
+ul.sidebar {
+    height: 100%;
+    width: 200px;
+    border-right: 1px solid #ccc;
+}
+ul.sidebar li {
+    height: 40px;
+    padding-left: 20px;
+    font-size: 20px;
+    line-height: 40px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+    /*单行文本过长用省略号*/
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+ul.sidebar li.head {
+    height: 60px;
+    line-height: 60px;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: auto;
+}
