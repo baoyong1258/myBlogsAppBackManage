@@ -19,3 +19,13 @@
 .table .handle .delete:hover {
     color: red;
 }
+.son {
+    display: flex;
+}
+.son > .item {
+    flex: 1;
+}
+.son > .item > span {
+    width: 30%;
+}
+
