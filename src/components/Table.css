@@ -21,11 +21,21 @@
 }
 .son {
     display: flex;
+    position: relative;
 }
 .son > .item {
     flex: 1;
 }
 .son > .item > span {
     width: 30%;
+}
+.son > .delete {
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    cursor: pointer;
+}
+.son > .delete:hover {
+    color: red;
 }
 
